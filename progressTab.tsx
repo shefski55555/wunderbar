@@ -16,8 +16,8 @@ import { GlobalStyles } from "./styles";
 export default function StepList() {
   let buttons: number[] = [];
 
-  const total = 16;
-  const chunkSize = 4;
+  const total = 210;
+  const chunkSize = 8;
 
   for (let i = 0; i < total; i++) {
     buttons.push(i + 1);
