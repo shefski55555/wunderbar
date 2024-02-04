@@ -10,15 +10,18 @@ import {
 } from "react-native";
 import { SceneMap, TabView } from "react-native-tab-view";
 import StepList from "./progressTab";
+import TabChooseCards from "./tabChoose";
 
 const FirstRoute = () => (
   <View style={{ flex: 1, backgroundColor: "#ff4081" }}>
-    <StepList />
+    <TabChooseCards />
   </View>
 );
 
 const SecondRoute = () => (
-  <View style={{ flex: 1, backgroundColor: "#673ab7" }} />
+  <View style={{ flex: 1, backgroundColor: "#673ab7" }}>
+    <StepList />
+  </View>
 );
 
 const ThirdRoute = () => (
