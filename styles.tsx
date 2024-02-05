@@ -14,7 +14,6 @@ export const GlobalStyles = StyleSheet.create({
   },
   chooseCard: {
     flex: 1,
-    margin: 4,
     borderRadius: 16,
     borderWidth: 2,
     borderColor: "black",
@@ -22,13 +21,3 @@ export const GlobalStyles = StyleSheet.create({
     backgroundColor: "grey",
   },
 });
-
-// const growAndOverlay = Animated.sequence([
-//     // decay, then spring to start and twirl
-//     Animated.add(position, {
-//       // coast to a stop
-//       velocity: {x: gestureState.vx, y: gestureState.vy}, // velocity from gesture release
-//       deceleration: 0.997,
-//       useNativeDriver: true,
-//     }),
-//   ]).start()
